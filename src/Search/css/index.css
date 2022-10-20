@@ -1,0 +1,59 @@
+.horizontal-center {
+  text-align: center !important;
+  margin: auto !important;
+}
+.input-search {
+  width: 100%;
+  max-width: 20rem;
+  height: 1.7rem;
+  margin: 8px 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container-option-panel {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #282c34;
+}
+
+.container-option-items {
+  height: 100%;
+  max-height: 24rem;
+  overflow-y: scroll;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-option-item {
+  cursor: pointer;
+  flex-direction: column;
+  background: transparent;
+  width: 100%;
+}
+
+.container-option-item:hover {
+  background: #000;
+}
+
+.container-option-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.label-option {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: grey;
+}
+.text-highlight {
+  color: white;
+}
+.text-white {
+  color: white;
+}
